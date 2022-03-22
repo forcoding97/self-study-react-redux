@@ -24,7 +24,7 @@ const store = createStore(reducer);
 function WithReduxApp() {
   return (
     <div id="container">
-      <h1>Root: </h1>
+      <h1>Root</h1>
       <div id="grid">
         {/* state 를 어떤 컴포넌트에 제공할 것인지 범위를 결정하는 울타리가 Provider 이다. */}
         {/* Provider 는 반드시 props 를 설정해줘야 한다. */}
@@ -40,7 +40,7 @@ function WithReduxApp() {
 function Left1(props) {
   return (
     <div>
-      <h1>Left1: </h1>
+      <h1>Left1</h1>
       <Left2 />
     </div>
   )
@@ -49,7 +49,7 @@ function Left1(props) {
 function Left2(props) {
   return (
     <div>
-      <h1>Left2: </h1>
+      <h1>Left2</h1>
       <Left3 />
     </div>
   )
