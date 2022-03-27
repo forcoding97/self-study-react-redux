@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './With-Redux-App.css';
 import { createStore } from 'redux';
 import { Provider, useSelector, useDispatch } from 'react-redux';

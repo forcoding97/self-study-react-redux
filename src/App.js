@@ -6,8 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<WithReduxApp />} />
-        <Route path='/without-redux-app' element={<WithoutReduxApp />} />
+        <Route path='/self-study-react-redux' element={<WithReduxApp />} />
+        <Route path='/self-study-react-redux/without-redux-app' element={<WithoutReduxApp />} />
       </Routes>
     </BrowserRouter>
   )
